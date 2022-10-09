@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir Tugas</title>
+	<style type="text/css">
+		*{margin:0; padding:0;}
+		body{background: #00fffc;}
+
+		.wrapper{width: 500px; margin: auto; padding: 20px; background: #ffffff; margin-top: 20px;}
+		h3{color: #C71585;padding: 10px; background: #FFB6C1; margin-bottom: 5px; text-align: center;}
+		table{width: 500px; background: #FFEFD5; border: 1px solid;}
+		input[type="nama"]{width: 325px; padding: 10px; border-radius: 5px; border: 1px solid black; margin: 10px 0;}
+		input[type="email"]{width: 325px; padding: 10px; border-radius: 5px; border: 1px solid black; margin: 10px 0;}
+		input[type="password"]{width: 325px; padding: 10px; border-radius: 5px; border: 1px solid black; margin: 10px 0;}
+
+		select{width: 112px; padding: 10px; border-radius: 5px; border: 1px solid black; margin: 10px 0;}
+
+		.syarat{margin-top: 10px;}
+		.syarat a{color: #ffc000}
+
+		input[type="submit"]{width: 100px; padding: 10px; border-radius: 5px; color: #C71585; background: #ffffff; border: 1px solid green; font-size: 20px; font-weight: bold; margin: 10px 0;}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<h3>FORMULIR </h3>
+		<form>
+			<table>
+				<tr>
+					<td>
+						Nama Depan
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+						<input type="nama" name="" placeholder="Nama Depan...">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Alamat Email
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+						<input type="email" name="" placeholder="Email Anda...">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Password
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+						<input type="password" name="" placeholder="Password Anda...">
+					</td>
+				</tr>
+				<tr>
+					<td>Tanggal Lahir</td>
+					<td>
+						:
+					</td>
+					<td>
+						<select>
+							<option>- Tgl</option>
+							<option>1</option>
+						</select>
+						<select>
+							<option>- Bulan</option>
+							<option>Januari</option>
+							<option>Februari</option>
+						</select>
+						<select>
+							<option>- Tahun</option>
+							<option>2001</option>
+							<option>2002</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Jenis Kelamin
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+						<input type="radio" name=""> Pria
+						<input type="radio" name=""> Wanita
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Alamat
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+						<textarea cols="40" rows="5"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<p class="syarat"><input type="checkbox" name=""> Syarat dan Ketentuan yang berlaku </p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center">
+						<input type="submit" name="" value="Simpan">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
